@@ -37,29 +37,7 @@ Luego instalar las librerias:
 (env)$ pip install -r requirements.txt
 ```
 
-Primero, dentro de settings.py comentamos la siguiente linea:  
-```sh
-INSTALLED_APPS = [
-   ...
-   #'django.contrib.admin',
-   ...
-]
-```
-Y en las rutas de nuestra carpeta principal(service_payments), comentamos lo siguiente:
-```sh
-urlpatterns = [
-   ...
-   #path('admin/', admin.site.urls) 
-   ...
-]
-```
-Luego de hacer esos pasos, realizamos la migración.
-```sh
-python manage.py makemigrations users
-
-python manage.py migrate
-```
-Luego de haber realizado la migración, descomentamos todo lo anterior y realizamos las otras migraciones.
+Luego, realizamos las migraciones.
 ```sh
 (env) $ python manage.py makemigrations
 (env) $ python manage.py migrate
