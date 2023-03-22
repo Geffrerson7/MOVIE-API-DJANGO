@@ -11,7 +11,7 @@ API para ecommerce de alquiler de peliculas. Está hecho con django-rest-framewo
 Clonar el repositorio
 
 ```bash
-  https://github.com/Geffrerson7/MOVIE-API-DJANGO.git
+   git clone https://github.com/Geffrerson7/MOVIE-API-DJANGO.git
 ```
 
 Ir al directorio al proyecto
@@ -46,4 +46,8 @@ Luego, realizamos las migraciones.
 Una vez concluido, procedemos a iniciar la app
 ```sh
 (env)$ python manage.py runserver
+```
+Y navegar a
+```sh
+http://127.0.0.1:8000/
 ```
