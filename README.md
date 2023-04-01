@@ -24,7 +24,7 @@ Ir al directorio al proyecto
 Crear un entorno virtual y lo activamos:
 
 ```sh
-$ python virtualenv venv
+$ virtualenv venv
 # windows
 $ source venv/Scripts/activate
 # Linux
