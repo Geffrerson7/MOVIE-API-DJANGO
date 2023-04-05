@@ -64,5 +64,5 @@ http://127.0.0.1:8000/
 * **Simple JWT** (v. 5.2.2) [Source](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
 * **drf-yasg** (v. 1.21.5) [Source](https://drf-yasg.readthedocs.io/en/stable/)
 
-## Author
+## Autor
 - [Gefferson Max Casasola Huamancusi](https://www.github.com/Geffrerson7)
