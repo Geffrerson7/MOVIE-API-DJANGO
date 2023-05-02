@@ -17,5 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expone el puerto en el que se ejecuta la aplicación
 EXPOSE 8000
 
-# Inicia la aplicación
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+

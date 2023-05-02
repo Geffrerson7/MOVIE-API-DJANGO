@@ -1,0 +1,14 @@
+# archivos de compilación
+*.pyc
+
+# directorios de entornos virtuales
+venv/
+.env/
+
+# directorios de medios y estáticos
+media/
+static/
+
+# directorios de configuración local
+local/
+logs/

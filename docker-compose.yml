@@ -22,6 +22,8 @@ services:
       - POSTGRES_USER=myuser
       - POSTGRES_PASSWORD=mypassword
       - POSTGRES_HOST=db
+      - SECRET_KEY=django-insecure-ck%pwxvb2avpcct7q@+z_0d2m#bcgxuehqr&44ncl%gg&=uqiu
+      - DEBUG=True
     depends_on:
       - db
 
