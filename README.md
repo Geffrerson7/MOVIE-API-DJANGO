@@ -37,13 +37,13 @@ $ source venv/bin/activate
 Luego instalar las librerias:
 
 ```sh
-(env)$ pip install -r requirements.txt
+(venv)$ pip install -r requirements.txt
 ```
 
 Luego, realizamos las migraciones.
 ```sh
-(env) $ python manage.py makemigrations
-(env) $ python manage.py migrate
+(venv) $ python manage.py makemigrations
+(venv) $ python manage.py migrate
 ```
 
 Una vez concluido, procedemos a iniciar la app
